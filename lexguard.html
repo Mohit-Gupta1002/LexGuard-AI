@@ -1,0 +1,738 @@
+Redesign the entire LexGuard AI app with a 
+premium, sophisticated visual identity. 
+This should look like a funded legal-tech 
+startup — not a student project.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DESIGN SYSTEM — APPLY EVERYWHERE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+COLORS:
+Background primary:    #080C14  (near black — deep space)
+Background secondary:  #0D1526  (dark navy — cards)
+Background tertiary:   #111D35  (slightly lighter — inputs)
+Accent blue:           #4F8EF7  (electric — primary actions)
+Accent gold:           #E8A838  (warm gold — premium actions)
+Accent purple:         #7C5CBF  (deep violet — highlights)
+Danger red:            #E8453C  (vivid red — dangerous clauses)
+Success green:         #2ECC8C  (emerald — safe/fixed clauses)
+Warning amber:         #F5A623  (warm amber — caution)
+Text primary:          #F0F4FF  (near white — headings)
+Text secondary:        #8B95A9  (muted blue-gray — body)
+Text tertiary:         #4A5568  (subtle — hints)
+Border subtle:         #1E2D4A  (barely visible borders)
+Border active:         #4F8EF7  (blue glow on focus)
+
+TYPOGRAPHY:
+Font: Inter (import from Google Fonts)
+Heading 1: 48px, weight 700, color #F0F4FF
+Heading 2: 32px, weight 600, color #F0F4FF  
+Heading 3: 22px, weight 600, color #F0F4FF
+Body: 16px, weight 400, color #8B95A9
+Small: 13px, weight 400, color #4A5568
+Label: 12px, weight 600, uppercase, 
+       letter-spacing 0.1em, color #4F8EF7
+
+EFFECTS:
+Cards: background #0D1526, 
+       border 1px solid #1E2D4A,
+       border-radius 16px,
+       subtle box-shadow: 
+       0 4px 24px rgba(0,0,0,0.4)
+
+Hover cards: border-color shifts to #4F8EF7
+             with soft blue glow:
+             box-shadow: 0 0 0 1px #4F8EF7,
+             0 4px 24px rgba(79,142,247,0.15)
+
+Buttons primary (blue):
+background: linear-gradient(135deg, #4F8EF7, #3A6FD8)
+border-radius: 12px
+padding: 16px 32px
+font-weight: 600
+No flat colors — always gradient
+
+Buttons secondary (gold):
+background: linear-gradient(135deg, #E8A838, #C8841A)
+border-radius: 12px
+padding: 16px 32px
+font-weight: 600
+
+Danger zones: background #1A0D0D,
+              border-left: 3px solid #E8453C
+
+Success zones: background #0A1A12,
+               border-left: 3px solid #2ECC8C
+
+DECORATIVE ELEMENTS:
+- Subtle grid pattern on hero backgrounds:
+  repeating-linear-gradient lines, 
+  very low opacity (0.03)
+- Soft radial gradient glow behind 
+  hero elements:
+  background: radial-gradient(
+  ellipse at 50% 0%, 
+  rgba(79,142,247,0.12) 0%, 
+  transparent 70%)
+- Thin glowing line separators 
+  instead of solid borders
+- Floating card depth: 
+  slightly elevated with shadow
+
+NAVBAR:
+background: rgba(8,12,20,0.85)
+backdrop-filter: blur(20px)
+border-bottom: 1px solid #1E2D4A
+Logo: ⚖️ LexGuard AI — weight 700, 
+      gradient text: #4F8EF7 → #7C5CBF
+Nav links: #8B95A9, hover: #F0F4FF
+"Sign In" button: outlined blue, 
+                  hover fills blue
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCREEN 1 — HOME
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Full viewport hero section.
+
+Background: #080C14 with subtle 
+radial blue glow at top center.
+Faint grid overlay at 3% opacity.
+
+TOP — Trust badge:
+Pill shaped: 
+"🔒 Trusted by 10,000+ Indian founders"
+Background: rgba(79,142,247,0.1)
+Border: 1px solid rgba(79,142,247,0.3)
+Text: #4F8EF7, small, centered
+
+HEADLINE (centered, large):
+Line 1: "Your contract has a hidden trap."
+— color #F0F4FF, 52px, weight 800
+Line 2: "We find it in 30 seconds."
+— gradient text: #4F8EF7 → #7C5CBF
+  52px, weight 800
+
+SUBHEADLINE:
+"Upload any contract. LexGuard reads 
+every clause, warns you of dangers, 
+explains it in your language — and 
+fixes it if you want."
+Color: #8B95A9, 18px, centered
+Max-width: 560px, centered
+
+UPLOAD ZONE:
+Large dashed border rectangle
+Background: #0D1526
+Border: 2px dashed #1E2D4A
+Border-radius: 20px
+Padding: 60px 40px
+Center content:
+  - Upload icon (large, #4F8EF7)
+  - "Drop your contract here" 
+    (#F0F4FF, 20px, weight 600)
+  - "or click to browse — PDF, DOC, DOCX"
+    (#4A5568, 14px)
+  - Blue gradient upload button:
+    "Upload Contract →"
+
+On hover: border becomes #4F8EF7
+          with soft blue glow
+          background shifts to #111D35
+
+3 STAT PILLS below upload zone 
+(horizontal row, centered):
+Pill 1: "⚡ 30 second analysis"
+Pill 2: "🗣️ 22 Indian languages"  
+Pill 3: "⚖️ Indian law trained"
+Each: background rgba(79,142,247,0.08)
+      border: 1px solid rgba(79,142,247,0.2)
+      text: #8B95A9
+      border-radius: 100px
+      padding: 8px 20px
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCREEN 2 — WHO ARE YOU
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Background: #080C14
+Centered content, max-width 680px
+
+Progress indicator at top:
+3 dots — step 1 active (blue), 
+         2 and 3 gray
+"Step 1 of 2 — Your profile"
+Small text, centered, #8B95A9
+
+HEADING:
+"Before we analyse —"
+"who are we protecting?"
+Gradient heading: #F0F4FF → #8B95A9
+Subtext: "LexGuard gives personalised 
+protection based on your situation"
+
+SECTION 1 — "I am a..."
+6 role cards in 3x2 grid:
+
+Each card:
+background: #0D1526
+border: 1px solid #1E2D4A
+border-radius: 16px
+padding: 24px 20px
+cursor: pointer
+center aligned content
+
+Card content:
+Large emoji (32px): 
+💻 🚀 🏪 👔 🤝 🎓
+Role name: 16px, weight 600, #F0F4FF
+Description: 12px, #8B95A9
+
+Cards:
+💻 "Freelancer" — "Independent creator"
+🚀 "Startup Founder" — "Building a company"
+🏪 "Business Owner" — "MSME / Shop owner"
+👔 "Employee" — "Offer letter / bonds"
+🤝 "Co-founder" — "Equity agreements"
+🎓 "Student" — "First contract"
+
+SELECTED state:
+background: rgba(79,142,247,0.12)
+border: 1px solid #4F8EF7
+blue glow shadow
+
+SECTION 2 — "This contract is a..."
+Horizontal scrollable pill selector:
+Client Project · Investor Deal · 
+Co-founder Agreement · Offer Letter · 
+Vendor Contract · Partnership · Other
+
+Selected pill: 
+background: #4F8EF7, 
+text: white
+
+Unselected:
+background: #111D35
+border: 1px solid #1E2D4A
+text: #8B95A9
+
+SECTION 3 — Location dropdown:
+Label: "Your state"
+Styled select: all 28 Indian states
+Background: #111D35
+Border: 1px solid #1E2D4A
+On focus: border #4F8EF7
+
+SECTION 4 — "I'm most worried about..."
+4 pill options:
+💰 Getting paid
+🔐 Losing my IP
+⏰ Being locked in  
+💀 Hidden penalties
+🔍 Analyse everything
+
+CTA button (full width):
+"Analyse My Contract →"
+Gradient blue button
+Large, 18px, weight 600
+
+Small privacy note:
+"🔒 Your details are never stored 
+or shared — ever."
+#4A5568, 13px, centered
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCREEN 3 — SCANNING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Background: #080C14
+Center all content vertically 
+and horizontally
+
+Animated scanning visual at top:
+Pulsing circle — 3 concentric rings
+innermost: #4F8EF7, solid
+middle: #4F8EF7, 40% opacity, 
+        pulsing animation
+outer: #4F8EF7, 15% opacity,
+       slower pulse
+
+Below circle:
+"Analysing for [User Role]"
+#4F8EF7, 14px, uppercase, 
+letter-spacing 0.1em
+
+"Reading every clause..."
+#F0F4FF, 28px, weight 700
+
+Animated progress bar:
+Background: #1E2D4A
+Fill: gradient #4F8EF7 → #7C5CBF
+     animated left to right
+Border-radius: 100px
+Height: 6px
+
+3 step checklist below:
+✓ "Document received" 
+  (completed — green #2ECC8C)
+⟳ "Reading clauses..."  
+  (active — blue, spinning icon)
+○ "Generating risk report"  
+  (pending — gray)
+
+Filename shown:
+"📄 freelance_agreement.pdf"
+background: #111D35
+border-radius: 8px
+padding: 8px 16px
+text: #8B95A9
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCREEN 4 — RESULTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Background: #080C14
+
+TOP SECTION — Risk score:
+Large circular gauge
+Outer ring: gradient red #E8453C 
+            covering 74% of circle
+Inner: #0D1526 background
+Center: 
+  "74" — 56px, weight 800, #F0F4FF
+  "HIGH RISK" — 11px, uppercase, 
+   letter-spacing 0.15em, #E8453C
+
+Below circle — 3 summary pills:
+🔴 "3 Dangerous" — red background
+🟡 "2 Caution" — amber background
+🟢 "8 Safe" — green background
+Each pill: rounded, colored background 
+at 15% opacity, colored border,
+colored text
+
+Personalization bar:
+"Analysed as: Freelancer in Karnataka
+ — focused on IP & payment risks"
+Background: rgba(79,142,247,0.08)
+Border: 1px solid rgba(79,142,247,0.2)
+Border-radius: 100px
+Text: #8B95A9, 13px, centered
+
+CLAUSE LIST:
+Each clause card:
+background: #0D1526
+border: 1px solid #1E2D4A
+border-radius: 12px
+padding: 20px 24px
+margin-bottom: 12px
+cursor: pointer
+
+LEFT: colored dot 
+(🔴 red / 🟡 amber / 🟢 green)
+MIDDLE: 
+  Clause name: #F0F4FF, 15px, weight 600
+  Description: #8B95A9, 13px
+RIGHT: "→" chevron, #4A5568
+
+Dangerous cards have:
+border-left: 3px solid #E8453C
+
+On hover: entire card glows subtly
+
+BOTTOM ACTION BAR:
+Fixed at bottom of screen
+background: rgba(8,12,20,0.95)
+backdrop-filter: blur(20px)
+border-top: 1px solid #1E2D4A
+padding: 16px 24px
+
+Two buttons side by side:
+Left: "🔊 Explain in my language"
+      gold gradient button
+Right: "⚡ Fix all dangerous clauses"  
+       blue gradient button
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCREEN 5 — CLAUSE DETAIL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Background: #080C14
+
+TOP NAV:
+"← Back to report" (left, #8B95A9)
+"Clause 4.1 of 13" (center, #4A5568)
+"Next →" (right, #8B95A9)
+
+CLAUSE TITLE:
+"Clause 4.1 — Payment Terms"
+#F0F4FF, 28px, weight 700
+Risk badge next to title:
+"CRITICAL" pill — red background
+
+ORIGINAL CLAUSE BOX:
+background: #1A0808
+border: 1px solid #3D1515
+border-left: 4px solid #E8453C
+border-radius: 12px
+Label: "ORIGINAL CLAUSE" 
+       #E8453C, 11px, uppercase, 
+       letter-spacing 0.1em
+Text: #F0F4FF, 15px, line-height 1.7
+Quote marks styled large in red
+
+EXPLANATION BOX:
+background: #0D1526
+border: 1px solid #1E2D4A
+border-radius: 12px
+⚠️ icon + "What this really means"
+   #F0F4FF, weight 600
+Explanation text: #8B95A9
+Risk level badge: "CRITICAL" in red pill
+
+PERSONAL IMPACT BOX:
+background: #0F1A0F
+border: 1px solid #1A3020
+border-left: 4px solid #2ECC8C
+border-radius: 12px
+👤 icon + "What this means for you"
+   #2ECC8C, weight 600
+Personal impact: #8B95A9
+
+BOTTOM BUTTONS:
+"🔊 Explain in [language]" — gold
+Small text: "Powered by Sarvam AI"
+"⚡ Fix This Clause" — blue gradient
+
+Language picker modal (on click):
+Dark overlay
+Card: #0D1526, border-radius: 20px
+Title: "Choose your language"
+4-column grid of language pills
+Each pill: 
+  Language in English (13px, weight 600)
+  Language in native script (11px, #8B95A9)
+  background: #111D35
+  border: 1px solid #1E2D4A
+  border-radius: 8px
+  padding: 12px 16px
+
+Selected: 
+  background: rgba(232,168,56,0.15)
+  border: 1px solid #E8A838
+  text: #E8A838
+
+"Powered by Sarvam AI" footer in modal
+"Continue in [language] →" gold button
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCREEN 6 — CLAUSE REWRITE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Background: #080C14
+
+"← Back to clause detail" top left
+
+HEADING:
+"Clause Rewrite"
+Subtext: "LexGuard rewrote this clause 
+to protect your interests"
+
+TWO COLUMN LAYOUT:
+
+LEFT — ORIGINAL:
+Label: "❌ ORIGINAL — DANGEROUS"
+       #E8453C, uppercase, small
+background: #1A0808
+border: 1px solid #3D1515
+border-left: 4px solid #E8453C
+border-radius: 16px
+Text: #F0F4FF, line-height 1.8
+
+RIGHT — REWRITTEN:
+Label: "✅ REWRITTEN — FAIR & LEGAL"
+       #2ECC8C, uppercase, small
+background: #0A1812
+border: 1px solid #1A3020
+border-left: 4px solid #2ECC8C
+border-radius: 16px
+Text: #F0F4FF, line-height 1.8
+
+BELOW COLUMNS:
+Legal citation pill:
+"Based on: Indian Contract Act, Section 55"
+background: rgba(124,92,191,0.1)
+border: 1px solid rgba(124,92,191,0.3)
+text: #7C5CBF
+
+Insight box:
+background: rgba(79,142,247,0.06)
+border: 1px solid rgba(79,142,247,0.15)
+border-radius: 12px
+"💡 This rewrite reduces your payment 
+risk by an estimated 68% based on 
+similar contract dispute outcomes 
+in Indian courts"
+Text: #8B95A9, 14px
+
+BUTTONS:
+"⬇ Download Counter-Proposal (PDF)"
+→ triggers pricing modal
+Blue gradient, full width
+
+"Get a Lawyer to Review This →"
+Gold gradient, full width
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCREEN 7 — PRICING MODAL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Triggered by:
+1. "Download Counter-Proposal" click
+2. "Pricing" navbar click
+
+OVERLAY: rgba(0,0,0,0.8) 
+         backdrop-filter: blur(8px)
+
+MODAL CARD:
+background: #0D1526
+border: 1px solid #1E2D4A
+border-radius: 24px
+padding: 40px
+max-width: 900px
+centered
+
+When triggered from download:
+Show alert banner at top:
+background: rgba(232,168,56,0.1)
+border: 1px solid rgba(232,168,56,0.2)
+border-radius: 10px
+"⚡ Upgrade to download your 
+counter-proposal PDF"
+text: #E8A838
+
+TITLE: "Choose Your Protection"
+Subtext: "Join 10,000+ Indian founders"
+
+3 CARDS SIDE BY SIDE:
+
+CARD 1 — GENERAL:
+background: #111D35
+border: 1px solid #1E2D4A
+border-radius: 16px
+padding: 32px 24px
+
+Tag: "Free Forever" 
+     gray pill
+
+Price: 
+"₹0" — 40px, weight 800, #F0F4FF
+"/month" — #8B95A9
+
+Features (13px, line-height 2):
+✅ green check — 3 contract scans
+✅ Risk score + flagging
+✅ Plain language explanation
+✅ Voice in 22 languages
+✗ red x — Download proposals
+✗ Agentic rewriting
+✗ Lawyer connect
+✗ IP Watchdog
+✗ LexGuard Predict
+
+Button: "Current Plan"
+        background: #1E2D4A
+        text: #4A5568
+        disabled
+
+CARD 2 — PRO (FEATURED):
+background: linear-gradient(
+  180deg, 
+  #0D1A35 0%, 
+  #091428 100%)
+border: 2px solid #4F8EF7
+border-radius: 16px
+padding: 32px 24px
+box-shadow: 0 0 40px rgba(79,142,247,0.2)
+Transform: scale(1.05) 
+           slightly larger
+
+Tag: "⭐ Most Popular"
+     background: rgba(79,142,247,0.15)
+     border: 1px solid #4F8EF7
+     text: #4F8EF7
+     pill shape
+
+Price:
+"₹99" — 40px, weight 800, 
+         gradient #4F8EF7→#7C5CBF
+"/month" — #8B95A9
+
+Features:
+✅ Unlimited scans
+✅ Risk score + flagging
+✅ Plain language explanation
+✅ Voice in 22 languages
+✅ Download counter-proposals
+✅ Agentic clause rewriting
+✅ IP Watchdog — 24/7
+✗ Lawyer connect
+✗ LexGuard Predict
+
+Button: "Upgrade to Pro →"
+        Blue gradient
+        Full width
+        
+"Cancel anytime" below button
+#4A5568, 12px, centered
+
+CARD 3 — PREMIUM:
+background: linear-gradient(
+  180deg,
+  #1A1408 0%,
+  #120E05 100%)
+border: 2px solid #E8A838
+border-radius: 16px
+padding: 32px 24px
+box-shadow: 0 0 40px rgba(232,168,56,0.15)
+
+Tag: "🔮 Full Protection"
+     background: rgba(232,168,56,0.1)
+     border: 1px solid #E8A838
+     text: #E8A838
+
+Price:
+"₹299" — 40px, weight 800, 
+          gradient #E8A838→#C8841A
+"/month" — #8B95A9
+
+Features:
+✅ Everything in Pro
+✅ Lawyer connect — from ₹199
+✅ LexGuard Predict
+✅ Dispute probability scores
+✅ Team access — 3 members
+✅ Certified legal reports
+✅ WhatsApp IP theft alerts
+
+Button: "Upgrade to Premium →"
+        Gold gradient
+        Full width
+
+"Cancel anytime" + "Most complete"
+#4A5568, 12px, centered
+
+BOTTOM OF MODAL:
+"🔒 Secure payment  •  Cancel anytime  
+ •  Protected under DPDP Act 2023"
+#4A5568, 12px, centered
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCREEN 8 — LAWYER CONNECT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Background: #080C14
+
+HERO SECTION:
+"Get Expert Legal Sign-off"
+Gradient heading: #F0F4FF → #8B95A9
+Subtext: "LexGuard already did 80% 
+of the work. Your lawyer needs 
+just 20 minutes."
+
+PRICE COMPARISON:
+Two cards side by side:
+
+LEFT — WITHOUT LEXGUARD:
+background: #1A0808
+border: 1px solid #3D1515
+border-radius: 12px
+"Without LexGuard" — red label
+"₹5,000 – ₹15,000" — large, #E8453C
+"3–5 hours lawyer time" — small, red
+
+RIGHT — WITH LEXGUARD:
+background: #0A1812
+border: 2px solid #2ECC8C
+border-radius: 12px
+box-shadow: 0 0 20px rgba(46,204,140,0.15)
+"With LexGuard" — green label
+"₹199" — large, #2ECC8C, weight 800
+"20 minutes — report pre-shared"
+— small, green
+
+LAWYER PROFILE CARD:
+background: #0D1526
+border: 1px solid #1E2D4A
+border-radius: 16px
+padding: 28px
+display: flex, aligned
+
+Left: Avatar circle 
+      gradient background
+      "PK" initials, white
+      "✓ Verified" badge below
+
+Middle:
+Name: "Adv. Priya Krishnamurthy"
+      #F0F4FF, weight 600
+Spec: "Startup & Contract Law"
+      #8B95A9
+Stars: ⭐⭐⭐⭐⭐ "4.9 (127 reviews)"
+Tags: "Bengaluru" "Kannada, Hindi, English"
+      small pills, #4A5568 background
+
+Right:
+"Responds < 30 mins" 
+green dot + text, #2ECC8C
+"Available now" — small
+
+WHAT'S INCLUDED BOX:
+background: rgba(79,142,247,0.06)
+border: 1px solid rgba(79,142,247,0.15)
+border-radius: 12px
+
+4 items with check icons:
+✓ LexGuard report pre-shared
+✓ 20 min video consultation
+✓ Written legal opinion
+✓ Certified review document
+
+CTA BUTTON:
+"Book Consultation — ₹199"
+Gold gradient, large, full width
+"Your LexGuard report will be 
+automatically shared" — small below
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MICRO INTERACTIONS — APPLY EVERYWHERE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+All buttons: 
+  transform: translateY(-1px) on hover
+  transition: all 0.2s ease
+
+All cards:
+  transition: border-color 0.2s,
+              box-shadow 0.2s
+
+Page transitions:
+  Fade in — opacity 0 to 1
+  0.3s ease on every screen change
+
+Input focus states:
+  Border shifts to #4F8EF7
+  Soft blue glow underneath
+
+Loading states:
+  Skeleton shimmer animation
+  on any async content
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OVERALL FEEL:
+Professional fintech meets legal tech.
+Think: Razorpay + Notion dark mode.
+Clean. Trustworthy. Premium.
+Every screen should feel like it 
+cost money to build.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
